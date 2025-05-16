@@ -1,0 +1,18 @@
+# Rust derleme çıktıları
+/target/
+**/*.rs.bk
+
+# IDE dosyaları
+.vscode/
+.idea/
+*.swp
+
+# Kişisel ayarlar
+*.log
+*.tmp
+
+# Büyük veri veya cache dosyaları (örnek)
+*.csv
+*.json
+*.dat
+*.bin

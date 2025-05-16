@@ -1,0 +1,13 @@
+[package]
+name = "fintech_rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+reqwest = { version = "0.12", features = ["blocking", "json"] }
+serde_json = "1.0"
+colored = "2.0"
+prettytable = "0.10.0"
+ratatui="0.26"
+crossterm = "0.29.0"
